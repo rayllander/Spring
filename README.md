@@ -573,6 +573,7 @@ Corpo:
 Headers: Content-Type     application/json
 
   username:
+  
   password:
   
 #### Editar
@@ -589,18 +590,21 @@ Corpo:
 Headers: Content-Type     application/json
 
   username:
+  
   password:
   
  #### Buscar por id
 GET http://localhost:8080/api/produtos/1
 
   username:
+  
   password:
   
 #### Excluir
 DELETE http://localhost:8080/api/produtos/1
 
   username:
+  
   password:
 
 
