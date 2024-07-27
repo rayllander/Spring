@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: mariadb
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=crud
+      - MYSQL_USER=user1
+      - MYSQL_PASSWORD=123
+    ports:
+      - "3307:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+
+  adminer:
+    image: adminer
+    container_name: meu_adminer
+    depends_on:
+      - mariadb
+    ports:
+      - "8082:8080"
+
+volumes:
+  mariadb_data:
