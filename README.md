@@ -1,5 +1,6 @@
 # Tutorial:
-![142-1425436_spring-boot](https://github.com/user-attachments/assets/ca8930ab-945d-4196-9bf9-87615bf01fa2)
+
+![Captura de tela 2024-07-27 153022](https://github.com/user-attachments/assets/cf3922bd-0a62-4811-90e1-26f1fa497723)
 
 ## Framework
 
@@ -51,7 +52,8 @@ Spring Initializr
 Spring Initializr é uma ferramenta web que facilita a criação inicial de projetos Spring Boot. Ele permite que os desenvolvedores configurem rapidamente um novo projeto Spring Boot com as dependências desejadas, evitando a necessidade de configuração manual extensa. Algumas das principais funcionalidades e características do Spring Initializr são: Seleção de dependências, Configuração do projeto, Geração de projeto, Integração com IDEs.
 
 ### 3.2-Print de como deve ser a configuração do projeto: 
-![image](https://github.com/user-attachments/assets/f5db358c-a316-4ede-9943-0a1c3fe23d0b)
+
+![142-1425436_spring-boot](https://github.com/user-attachments/assets/3e0ff1a8-4401-4f14-9595-eb36c43199f9)
 
 
 #### Maven: Gerenciador de dependências ( baixa da internet todas as bibliotecas dependentes)
