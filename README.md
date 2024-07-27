@@ -88,7 +88,7 @@ remover com nome ou id:  docker rm "nome do container"
 ```bash
 docker-compose up -d
 ```
-## 5-Criar a conexão com o banco de dados entre nas pastas: Spring/src/main/resoucers/ application.properties e copie o codigo do mesmo no nosso projeto:
+## 5-Criar a conexão com o banco de dados entre nas pastas: Spring/src/main/resoucers/ application.properties e copie o codigo do mesmo:
 ```bash
 spring.datasource.url=jdbc:mariadb://localhost:3307/crud
 spring.datasource.username=user1
