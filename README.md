@@ -1,6 +1,5 @@
 # Tutorial:
-
-![Captura de tela 2024-07-27 153022](https://github.com/user-attachments/assets/cf3922bd-0a62-4811-90e1-26f1fa497723)
+![142-1425436_spring-boot](https://github.com/user-attachments/assets/3e0ff1a8-4401-4f14-9595-eb36c43199f9)
 
 ## Framework
 
@@ -53,7 +52,7 @@ Spring Initializr é uma ferramenta web que facilita a criação inicial de proj
 
 ### 3.2-Print de como deve ser a configuração do projeto: 
 
-![142-1425436_spring-boot](https://github.com/user-attachments/assets/3e0ff1a8-4401-4f14-9595-eb36c43199f9)
+![Captura de tela 2024-07-27 153022](https://github.com/user-attachments/assets/cf3922bd-0a62-4811-90e1-26f1fa497723)
 
 
 #### Maven: Gerenciador de dependências ( baixa da internet todas as bibliotecas dependentes)
