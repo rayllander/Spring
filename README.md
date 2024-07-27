@@ -89,10 +89,24 @@ remover com nome ou id:  docker rm "nome do container"
 docker-compose up -d
 ```
 ## 5-Criar a conexão com o banco de dados entre nas pastas: Spring/src/main/resoucers/ application.properties e copie o codigo do mesmo no nosso projeto:
+```bash
+spring.datasource.url=jdbc:mariadb://localhost:3307/crud
+spring.datasource.username=user1
+spring.datasource.password=123
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
 
-application.properties
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MariaDBDialect
 
+logging.level.root=INFO
+logging.level.org.springframework=DEBUG
+logging.file.name=logs/application.log
 
+spring.security.user.name=rayllander
+spring.security.user.password=123
+
+```
 ## 6-Organizar pastas para criação das classes, dentro da pasta “Spring” crie as pastas:
 
 Config
