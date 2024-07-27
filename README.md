@@ -535,11 +535,25 @@ public class SecurityConfig {
 verificar: insomnia –version
 Baixar: https://insomnia.rest/download.
 ```
+## 12-Testes no Insomnia:
+####Adicionar:
+POST http://localhost:8080/api/usuarios
+Corpo:```bash {
+  "nome": "usuario",
+  "email": "usuarioExemplo@gmail.com"
+}
+} ```
 
+Headers: Content-Type     application/json
 
-
-
-
+  username:
+  password:
+  
+####Listar: 
+GET http://localhost:8080/api/usuarios
+Auth
+  username:
+  password:
 
 
 
