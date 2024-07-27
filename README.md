@@ -536,32 +536,72 @@ verificar: insomnia –version
 Baixar: https://insomnia.rest/download.
 ```
 ## 12-Testes no Insomnia:
-####Adicionar:
+#### Adicionar:
 POST http://localhost:8080/api/usuarios
-Corpo:```bash {
+
+Corpo:
+```bash
+{
   "nome": "usuario",
   "email": "usuarioExemplo@gmail.com"
 }
-} ```
+```
 
 Headers: Content-Type     application/json
 
   username:
   password:
   
-####Listar: 
+#### Listar: 
 GET http://localhost:8080/api/usuarios
 Auth
   username:
   password:
+  
+#### Adicionar: 
+POST http://localhost:8080/api/produtos
 
+Corpo:
+```bash
+{
+  "nome": "melancia",
+    "preco": 20.0,
+    "usuarioId": 1
+}
 
+```
+Headers: Content-Type     application/json
 
+  username:
+  password:
+  
+#### Editar
+PUT http://localhost:8080/api/produtos/1
+Corpo:
+```bash
+{	
+	"nome": "abacaxi",
+	"preco": 15.00,
+	"usuarioId": 1
+}
+```
 
+Headers: Content-Type     application/json
 
+  username:
+  password:
+  
+ #### Buscar por id
+GET http://localhost:8080/api/produtos/1
 
+  username:
+  password:
+  
+#### Excluir
+DELETE http://localhost:8080/api/produtos/1
 
-
+  username:
+  password:
 
 
 
