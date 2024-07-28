@@ -107,7 +107,7 @@ spring.security.user.name=rayllander
 spring.security.user.password=123
 
 ```
-## 6-Organizar pastas para criação das classes, dentro do projeto e dentro da pasta “Spring” crie as pastas:
+## 6-Organizar pastas para criação das classes, dentro do projeto Spring e dentro das pasta src/main/java/com/example/Spring crie as pastas:
 
 Config
 
