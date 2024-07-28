@@ -113,7 +113,7 @@ Config
 
 controller
 
-repository
+Repository
 
 model
 
