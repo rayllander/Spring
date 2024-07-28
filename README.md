@@ -107,7 +107,7 @@ spring.security.user.name=rayllander
 spring.security.user.password=123
 
 ```
-## 6-Organizar pastas para criação das classes, dentro da pasta “Spring” crie as pastas:
+## 6-Organizar pastas para criação das classes, dentro do projeto e dentro da pasta “Spring” crie as pastas:
 
 Config
 
@@ -486,7 +486,7 @@ public interface ProdutoRepository extends JpaRepository<ProdutoModel, Long> {
 }
 ```
 
-## 10-Criar a autentificaçao SecurityConfig:
+## 10-Criar a autentificaçao SecurityConfig.java:
 ```bash
 package com.example.Spring.Config;
 
@@ -533,7 +533,7 @@ public class SecurityConfig {
 ## 11-Baixar Insomnia: 
 ```bash
 verificar: insomnia –version
-Baixar: https://insomnia.rest/download.
+Baixar: https://insomnia.rest/download
 ```
 ## 12-Testes no Insomnia:
 #### Adicionar:
