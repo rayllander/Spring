@@ -30,7 +30,7 @@ apt update && sudo apt install default-jre default-jdk
 ## 2-Conferir se o docker composer esta instalado na maquina:
 
 ```bash
-composer –version
+docker-composer --version
 ```
 
 ### 2.1-Para as maquinas que não  estiverem com o composer intalado:
