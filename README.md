@@ -66,9 +66,9 @@ Spring Initializr é uma ferramenta web que facilita a criação inicial de proj
 
 é um módulo do Spring Framework que fornece suporte para a criação de aplicações web, incluindo aplicações web tradicionais baseadas em servlets e aplicações web reativas. 
 
-#### O MySQL Driver
+#### O MariaDB Driver
 
- também conhecido como MySQL Connector/J, é um driver JDBC (Java Database Connectivity) para o banco de dados MySQL. Ele permite que aplicações Java se conectem e interajam com um banco de dados MySQL, executando operações como consultas, atualizações e outras transações SQL
+O MariaDB driver é um software que permite que aplicações Java se conectem a um banco de dados MariaDB. Ele age como uma ponte entre a aplicação Java e o servidor MariaDB, permitindo a comunicação e a troca de dados. O driver JDBC (Java Database Connectivity) do MariaDB é específico para este banco de dados e implementa a interface JDBC, permitindo que a aplicação execute consultas SQL, manipule resultados e gerencie transações de maneira eficiente.
 
  #### O Spring Security
 
