@@ -52,7 +52,7 @@ Spring Initializr é uma ferramenta web que facilita a criação inicial de proj
 
 ### 3.2-Print de como deve ser a configuração do projeto: 
 
-![Captura de tela 2024-07-27 153022](https://github.com/user-attachments/assets/cf3922bd-0a62-4811-90e1-26f1fa497723)
+![Captura de tela 2024-07-30 193741](https://github.com/user-attachments/assets/bb4998f2-30ae-4c7e-b935-b4dfc37efae8)
 
 
 #### Maven: Gerenciador de dependências ( baixa da internet todas as bibliotecas dependentes)
