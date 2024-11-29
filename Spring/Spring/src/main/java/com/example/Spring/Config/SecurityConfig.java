@@ -17,14 +17,21 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-        .csrf(csrf -> csrf.disable())  
-                .authorizeHttpRequests(authorizeRequests ->
-                        authorizeRequests
-                                .requestMatchers("/api/produtos/**").permitAll() 
-                                .requestMatchers("/api/usuarios/**").authenticated() 
-   
+            .csrf(csrf -> csrf.disable())
+            .authorizeHttpRequests(authorizeRequests -> authorizeRequests
+                .requestMatchers("/api/produtos/**").permitAll()    // Permitir acesso público
+                .requestMatchers("/api/usuarios/**").authenticated() // Requer autenticação
+                .requestMatchers("/error").permitAll()              // Permitir acesso à rota de erro
+                .requestMatchers("/favicon.ico").permitAll() 
+                .requestMatchers("/**").permitAll()
                 )
-                .httpBasic(withDefaults());  // Habilitar autenticação básica
+            .exceptionHandling(exception -> exception
+                .accessDeniedHandler((request, response, accessDeniedException) -> {
+                    System.out.println("Acesso negado para " + request.getRequestURI());
+                    response.sendError(403, "Acesso negado");
+                })
+            )
+            .httpBasic(withDefaults());  // Habilitar autenticação básica
 
         return http.build();
     }

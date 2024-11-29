@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Usuário e Produto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#" onclick="mostrarPagina('listarUsuarios')">Listar Usuários</a></li>
+                <li><a href="#" onclick="mostrarPagina('adicionarUsuario')">Adicionar Usuário</a></li>
+                <li><a href="#" onclick="mostrarPagina('buscarUsuario')">Buscar Usuário por ID</a></li>
+                <li><a href="#" onclick="mostrarPagina('editarUsuario')">Editar Usuário</a></li>
+                <li><a href="#" onclick="mostrarPagina('excluirUsuario')">Excluir Usuário</a></li>
+                <li><a href="#" onclick="mostrarPagina('listarProdutos')">Listar Produtos</a></li>
+                <li><a href="#" onclick="mostrarPagina('adicionarProduto')">Adicionar Produto</a></li>
+                <li><a href="#" onclick="mostrarPagina('editarProduto')">Editar Produto</a></li>
+                <li><a href="#" onclick="mostrarPagina('excluirProduto')">Excluir Produto</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <!-- Página de Listar Usuários -->
+            <div id="listarUsuarios" class="pagina" style="display:none;">
+                <h2>Listar Usuários</h2>
+                <button onclick="listarUsuarios()">Listar Usuários</button>
+                <ul id="usuarios-list"></ul>
+            </div>
+
+            <!-- Página de Adicionar Usuário -->
+            <div id="adicionarUsuario" class="pagina" style="display:none;">
+                <h2>Adicionar Usuário</h2>
+                <input type="text" id="usuario-nome" placeholder="Nome">
+                <input type="email" id="usuario-email" placeholder="Email">
+                <button onclick="adicionarUsuario()">Salvar</button>
+            </div>
+
+            <!-- Página de Buscar Usuário -->
+<div id="buscarUsuario" class="pagina" style="display:none;">
+    <h2>Buscar Usuário por ID</h2>
+    <input type="text" id="usuario-id" placeholder="ID para buscar" />
+    <button onclick="buscarUsuarioPorId()">Buscar</button>
+
+    <!-- Aqui será exibido o usuário encontrado -->
+    <div id="usuario-info"></div>
+</div>
+
+
+            <!-- Página de Editar Usuário -->
+            <div id="editarUsuario" class="pagina" style="display:none;">
+                <h2>Editar Usuário</h2>
+                <input type="text" id="usuario-id-editar" placeholder="ID do Usuário">
+                <input type="text" id="usuario-nome-editar" placeholder="Novo Nome">
+                <input type="email" id="usuario-email-editar" placeholder="Novo Email">
+                <button onclick="editarUsuario()">Editar</button>
+            </div>
+
+            <!-- Página de Excluir Usuário -->
+            <div id="excluirUsuario" class="pagina" style="display:none;">
+                <h2>Excluir Usuário</h2>
+                <input type="text" id="usuario-id-excluir" placeholder="ID do Usuário">
+                <button onclick="excluirUsuario()">Excluir</button>
+            </div>
+
+            <!-- Página de Listar Produtos -->
+            <div id="listarProdutos" class="pagina" style="display:none;">
+                <h2>Listar Produtos</h2>
+                <button onclick="listarProdutos()">Listar Produtos</button>
+                <ul id="produtos-list"></ul>
+            </div>
+
+            <!-- Página de Adicionar Produto -->
+<div id="adicionarProduto" class="pagina" style="display:none;">
+    <h2>Adicionar Produto</h2>
+    <input type="text" id="produto-nome" placeholder="Nome">
+    <input type="number" id="produto-preco" placeholder="Preço">
+    
+    
+    
+    
+    <select id="produto-usuarioId">
+        <option value="">Selecione o Usuário</option>
+        <!-- Aqui os usuários serão carregados dinamicamente -->
+    </select>
+
+    <button onclick="adicionarProduto()">Salvar</button>
+</div>
+
+
+<div id="editarProduto" class="pagina" style="display:none;">
+    <h2>Editar Produto</h2>
+    <input type="text" id="produto-id-editar" placeholder="ID do Produto">
+    <input type="text" id="produto-nome-editar" placeholder="Novo Nome">
+    <input type="number" id="produto-preco-editar" placeholder="Novo Preço">
+    
+    
+
+    <button onclick="editarProduto()">Editar</button>
+</div>
+
+            
+
+            <!-- Página de Excluir Produto -->
+            <div id="excluirProduto" class="pagina" style="display:none;">
+                <h2>Excluir Produto</h2>
+                <input type="text" id="produto-id-excluir" placeholder="ID do Produto">
+                <button onclick="excluirProduto()">Excluir</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
