@@ -1,8 +1,10 @@
-C:\Users\rayll\OneDrive\Área de Trabalho\Spring\Spring\src\main\java\com\example\demo\config\CorsConfig.java
-C:\Users\rayll\OneDrive\Área de Trabalho\Spring\Spring\src\main\java\com\example\demo\controller\ProdutoController.java
-C:\Users\rayll\OneDrive\Área de Trabalho\Spring\Spring\src\main\java\com\example\demo\controller\UsuarioController.java
-C:\Users\rayll\OneDrive\Área de Trabalho\Spring\Spring\src\main\java\com\example\demo\model\model_produto.java
-C:\Users\rayll\OneDrive\Área de Trabalho\Spring\Spring\src\main\java\com\example\demo\model\model_usuario.java
-C:\Users\rayll\OneDrive\Área de Trabalho\Spring\Spring\src\main\java\com\example\demo\Repository\ProdutoRepository.java
-C:\Users\rayll\OneDrive\Área de Trabalho\Spring\Spring\src\main\java\com\example\demo\Repository\UsuarioRepository.java
-C:\Users\rayll\OneDrive\Área de Trabalho\Spring\Spring\src\main\java\com\example\Spring\Application.java
+C:\Spring\Spring\Spring\src\main\java\com\example\Spring\Application.java
+C:\Spring\Spring\Spring\src\main\java\com\example\Spring\Config\SecurityConfig.java
+C:\Spring\Spring\Spring\src\main\java\com\example\Spring\controller\MainController.java
+C:\Spring\Spring\Spring\src\main\java\com\example\Spring\controller\ProdutoController.java
+C:\Spring\Spring\Spring\src\main\java\com\example\Spring\controller\UsuarioController.java
+C:\Spring\Spring\Spring\src\main\java\com\example\Spring\model\ProdutoModel.java
+C:\Spring\Spring\Spring\src\main\java\com\example\Spring\model\UsuarioModel.java
+C:\Spring\Spring\Spring\src\main\java\com\example\Spring\Repository\ProdutoRepository.java
+C:\Spring\Spring\Spring\src\main\java\com\example\Spring\Repository\UsuarioRepository.java
+C:\Spring\Spring\Spring\src\main\java\org\springframework\security\config\annotation\web\configuration\WebSecurityConfigurerAdapter.java
